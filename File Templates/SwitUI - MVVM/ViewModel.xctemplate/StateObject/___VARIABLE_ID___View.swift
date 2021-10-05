@@ -13,7 +13,13 @@ struct ___VARIABLE_ID___View: View {
 
 }
 
-struct ___VARIABLE_ID____Previews: PreviewProvider {
+extension ___VARIABLE_ID___View {
+
+    typealias ViewModel = ___VARIABLE_ID___ViewModel
+
+}
+
+struct ___VARIABLE_ID___View_Previews: PreviewProvider {
 
     static var previews: some View {
         Group {
@@ -24,10 +30,4 @@ struct ___VARIABLE_ID____Previews: PreviewProvider {
         }
     }
     
-}
-
-extension ___VARIABLE_ID___View {
-
-    typealias ViewModel = ___VARIABLE_ID___ViewModel
-
 }
