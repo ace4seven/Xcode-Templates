@@ -3,7 +3,7 @@
 import UIKit
 import Combine
  
-protocol ___VARIABLE_ID___ViewDelegate: class {
+protocol ___VARIABLE_ID___ViewDelegate: AnyObject {
     
 }
 
@@ -21,10 +21,6 @@ final class ___VARIABLE_ID___ViewController: UIViewController {
     }
 
     // MARK: - Outlet
-    
-    @IBOutlet private weak var button: UIButton!
-    @IBOutlet private weak var label: UILabel!
-    @IBOutlet private weak var textfield: UITextField!
     
     // MARK: - Constant
 
