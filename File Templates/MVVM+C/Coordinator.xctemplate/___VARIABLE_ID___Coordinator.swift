@@ -9,7 +9,7 @@ protocol ___VARIABLE_ID___Route: AnyObject {
 
 }
 
-final class Dashboard___VARIABLE_ID___Coordinator: Coordinator {
+final class ___VARIABLE_ID___Coordinator: Coordinator {
     
     weak var parrentCoordinator: Coordinator?
     
@@ -31,12 +31,12 @@ final class Dashboard___VARIABLE_ID___Coordinator: Coordinator {
 
 // MARK: - Router implementation
 
-extension ___VARIABLE_ID___Coordinator: ___VARIABLE_ID___Route  {
+extension ___VARIABLE_ID___Coordinator: ___VARIABLE_ID___Route {
     
 }
 
 // MARK: - Private
 
-extension DashboardCoordinator {
+extension ___VARIABLE_ID___Coordinator {
 
 }

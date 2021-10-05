@@ -2,11 +2,11 @@
 
 import Foundation
 
-protocol ___VARIABLE_ID___VM: class {
+protocol ___VARIABLE_ID___VM: AnyObject {
     func setup(viewDelegate: ___VARIABLE_ID___ViewDelegate)
 }
 
-protocol ___VARIABLE_ID___Transition: class {
+protocol ___VARIABLE_ID___Transition: AnyObject {
 
 }
 
@@ -46,6 +46,6 @@ extension ___VARIABLE_ID___ViewModel: ___VARIABLE_ID___Transition {
 
 // MARK: - Private
 
-extension QrCodeResultViewModel {
+extension ___VARIABLE_ID___ViewModel {
 
 }
