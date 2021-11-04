@@ -5,17 +5,11 @@ import Combine
 
 struct ___VARIABLE_ID___View: View {
 
-    @StateObject var viewModel: ViewModel = ViewModel()
+    @StateObject var viewModel = ___VARIABLE_ID___ViewModel()
 
     var body: some View {
         Text("Hello SwiftUI Template")
     }
-
-}
-
-extension ___VARIABLE_ID___View {
-
-    typealias ViewModel = ___VARIABLE_ID___ViewModel
 
 }
 
