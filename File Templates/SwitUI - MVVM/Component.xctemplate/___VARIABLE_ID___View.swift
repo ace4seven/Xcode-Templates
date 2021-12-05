@@ -5,29 +5,29 @@ import Combine
 
 struct ___VARIABLE_ID___View: View {
 
-    @StateObject var viewModel: ViewModel = ViewModel()
-
     var body: some View {
-        Text("Hello SwiftUI Template")
+        Text("SwiftUI Component")
     }
 
 }
 
-struct ___VARIABLE_ID____Previews: PreviewProvider {
+// MARk: - ViewModifiers
+
+extension ___VARIABLE_ID___View {
+
+}
+
+struct ___VARIABLE_ID___View_Previews: PreviewProvider {
 
     static var previews: some View {
         Group {
             ___VARIABLE_ID___View()
+                .previewLayout(.sizeThatFits)
                 .preferredColorScheme(.light)
             ___VARIABLE_ID___View()
+                .previewLayout(.sizeThatFits)
                 .preferredColorScheme(.dark)
         }
     }
     
-}
-
-extension ___VARIABLE_ID___View {
-
-    typealias ViewModel = ___VARIABLE_ID___ViewModel
-
 }

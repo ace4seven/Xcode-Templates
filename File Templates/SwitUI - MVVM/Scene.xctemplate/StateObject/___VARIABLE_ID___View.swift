@@ -5,7 +5,7 @@ import Combine
 
 struct ___VARIABLE_ID___View: View {
 
-    @ObservedObject var viewModel: ViewModel
+    @StateObject var viewModel = ___VARIABLE_ID___ViewModel()
 
     var body: some View {
         Text("Hello SwiftUI Template")
@@ -13,21 +13,15 @@ struct ___VARIABLE_ID___View: View {
 
 }
 
-struct ___VARIABLE_ID____Previews: PreviewProvider {
+struct ___VARIABLE_ID___View_Previews: PreviewProvider {
 
     static var previews: some View {
         Group {
-            ___VARIABLE_ID___View(viewModel: .init())
+            ___VARIABLE_ID___View()
                 .preferredColorScheme(.light)
-            ___VARIABLE_ID___View(viewModel: .init())
+            ___VARIABLE_ID___View()
                 .preferredColorScheme(.dark)
         }
     }
     
-}
-
-extension ___VARIABLE_ID___View {
-
-    typealias ViewModel = ___VARIABLE_ID___ViewModel
-
 }
